@@ -96,7 +96,7 @@ s.source_files  = "TrackingSDK", "TrackingSDK/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -108,7 +108,7 @@ s.source_files  = "TrackingSDK", "TrackingSDK/**/*.{h,m,swift}"
   #
 
   # s.resource  = "icon.png"
-   s.resources = "TrackingSDK/*.png"
+  # s.resources = "TrackingSDK/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
