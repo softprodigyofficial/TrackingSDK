@@ -71,7 +71,7 @@ public class TrackingSDK {
         
         let ticks = Date().ticks
         let time = "\(IDFA)\(ticks)"
-        let stringConvertedToMD5 = time.MD5
+        let stringConvertedToMD5 = time
         
         sharedInstance.eventType = eventType
         sharedInstance.sessionId = stringConvertedToMD5
@@ -104,7 +104,10 @@ extension Date
 //Md5 converter
 extension String
 {
-    var MD5:String {
+    func replace(target: String, withString: String) -> String {
+        return self.replacingOccurrences(of: target, with: withString)
+    }
+    /*var MD5:String {
         get{
             let messageData = self.data(using:.utf8)!
             var digestData = Data(count: Int(CC_MD5_DIGEST_LENGTH))
@@ -116,5 +119,5 @@ extension String
             }
             return digestData.map { String(format: "%02hhx", $0) }.joined()
         }
-    }
+    }*/
 }
