@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.name         = "TrackingSDK"
   s.version      = "0.0.1"
   s.summary      = "This app is for user intraction."
-  s.xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '${POD_ROOT}/TrackingSDK/BridgingHeader.h' }
+#s.xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '${POD_ROOT}/TrackingSDK/BridgingHeader.h' }
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
