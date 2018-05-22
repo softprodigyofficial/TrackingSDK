@@ -96,7 +96,8 @@ s.source_files  = "TrackingSDK", "TrackingSDK/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.2' }
+    s.swift_version = "4.1"
+#s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
