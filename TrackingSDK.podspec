@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TrackingSDK"
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
   s.summary      = "This is a tracking sdk to get the user intraction with applciation."
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/softprodigyofficial/TrackingSDK.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/softprodigyofficial/TrackingSDK.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "TrackingSDK", "TrackingSDK/**/*.{h,m}"
-  #s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "TrackingSDK/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
