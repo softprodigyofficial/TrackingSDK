@@ -93,7 +93,7 @@ class NetworkManager: NSObject {
                 {
                     print(data!)
                     print(response)
-                    let statuscode = response.statusCode
+//                    let statuscode = response.statusCode
                     print("Success")
                 }
                 
