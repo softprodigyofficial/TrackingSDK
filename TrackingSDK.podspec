@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://springrole.com/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
- s.swift_version = "'4.0.3"
+ s.swift_version = "4.0.3"
 #s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0.3' }
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
