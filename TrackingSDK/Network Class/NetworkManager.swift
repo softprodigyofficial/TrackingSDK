@@ -91,8 +91,6 @@ class NetworkManager: NSObject {
             if let response = response as? HTTPURLResponse {
                 if  response.statusCode == 202
                 {
-                    print(data!)
-                    print(response)
 //                    let statuscode = response.statusCode
                     print("Success")
                 }
